@@ -1,4 +1,76 @@
-head{
-    
-    background-color: red
+body{background-color: black}
+h2{color:white; font-family: monospace; font:courier}
+h1 {color: white; font-family: monospace; font:courier}
+h3 {color: white; font-family: monospace; font:courier}
+
+#large-photo {
+    width: 700px;
+    height:auto;
+    flex-direction: row;
+    text-align:right;
+    padding: 50px;
+    border-radius: 15%;
+    align-items: right;
+    justify-content: right;
+    /* transform: translate(100%, -125%) */
 }
+#clapper {
+    width: 700px;
+    height:auto;
+    flex-direction: row;
+    text-align:right;
+    padding: 50px;
+    border-radius: 20%;
+    align-items: right;
+    justify-content: right;
+}
+#color-shot {
+    width: 700px;
+    height:auto;
+    flex-direction: row;
+    text-align:right;
+    padding: 50px;
+    border-radius: 20%;
+    align-items: right;
+    justify-content: right;
+}
+#silhouette-shot {
+    width: 700px;
+    height:auto;
+    flex-direction: row;
+    text-align:right;
+    padding: 50px;
+    border-radius: 20%;
+    align-items: right;
+    justify-content: right;
+}
+
+#youtube {
+    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: none;
+    font-size: medium;
+    display: grid;
+    /* place-items: center; */
+    transform: translate(2550%, -125%);
+    background-color:red;
+    color:white}
+#twitter {
+    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: none;
+    font-size: medium;
+    display: grid;
+    /* place-items: center; */
+    transform: translate(2550%, -125%);
+    background-color: blue; 
+    color:white}
+#tiktok {    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: none;
+    font-size: medium;
+    display: grid;
+    /* place-items: center; */
+    transform: translate(2550%, -125%);
+    background-color:blueviolet;
+    color:white}
