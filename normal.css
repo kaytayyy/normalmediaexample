@@ -1,48 +1,94 @@
 body{background-color: black}
+
 h2{color:white; font-family: monospace; font:courier}
-h1 {color: white; font-family: monospace; font:courier}
-h3 {color: white; font-family: monospace; font:courier}
+
+h3 {
+    color: white; font-family: monospace; font:courier;
+    word-wrap: break-word;
+    font-size: larger;
+}
+
+#logo {
+    /* transform: translate(10%, -10%); */
+    padding: 30px
+}
 
 #large-photo {
     width: 700px;
     height:auto;
     flex-direction: row;
     text-align:right;
-    padding: 50px;
+    /* padding: 50px; */
     border-radius: 15%;
     align-items: right;
     justify-content: right;
-    /* transform: translate(100%, -125%) */
+    /* object-position: right top; */
+    transform: translate(100%, -50%)
 }
+
+h1 {
+    color: white; font-family: monospace; font:courier;
+    transform: translate(5%, -30%);
+    font-size: 400%;
+    
+}
+
+#first {
+    transform: translate(2%, -1000%);
+    /* padding: 15px */
+
+}
+
 #clapper {
-    width: 700px;
+    width: 160px;
     height:auto;
     flex-direction: row;
-    text-align:right;
-    padding: 50px;
-    border-radius: 20%;
-    align-items: right;
-    justify-content: right;
+    text-align:left;
+    padding: 20px;
+    border-radius: 30%;
+    align-items: left;
+    justify-content: left;
+    /* transform: translate(); */
+
 }
+
 #color-shot {
-    width: 700px;
+    width: 160px;
     height:auto;
     flex-direction: row;
     text-align:right;
-    padding: 50px;
-    border-radius: 20%;
+    padding: 20px;
+    border-radius: 30%;
     align-items: right;
     justify-content: right;
 }
+
 #silhouette-shot {
-    width: 700px;
+    width: 160px;
     height:auto;
     flex-direction: row;
     text-align:right;
-    padding: 50px;
-    border-radius: 20%;
+    padding: 20px;
+    border-radius: 30%;
     align-items: right;
     justify-content: right;
+}
+
+#smaller-images {
+    transform: translate(0, -700px)
+}
+
+#learnbtn {
+    background-color: aqua;
+    color: black;
+    font-size: 18px;
+    padding: 15px 32px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+#second {
+
 }
 
 #youtube {
@@ -54,7 +100,9 @@ h3 {color: white; font-family: monospace; font:courier}
     /* place-items: center; */
     transform: translate(2550%, -125%);
     background-color:red;
-    color:white}
+    color:white
+}
+
 #twitter {
     padding: 5px 5px 5px 5px;
     border-radius: 3px;
@@ -64,7 +112,9 @@ h3 {color: white; font-family: monospace; font:courier}
     /* place-items: center; */
     transform: translate(2550%, -125%);
     background-color: blue; 
-    color:white}
+    color:white
+}
+
 #tiktok {    padding: 5px 5px 5px 5px;
     border-radius: 3px;
     border: none;
@@ -73,4 +123,5 @@ h3 {color: white; font-family: monospace; font:courier}
     /* place-items: center; */
     transform: translate(2550%, -125%);
     background-color:blueviolet;
-    color:white}
+    color:white
+}
