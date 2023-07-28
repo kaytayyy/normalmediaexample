@@ -85,6 +85,18 @@ h1 {
     padding: 15px 32px;
     border-radius: 15px;
     font-weight: bolder;
+    transform: translate(20px, -700px);
+}
+
+#enjoywork {
+    transform: translate(100px, -600px);
+}
+
+#box {
+    color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
 }
 
 #second {
@@ -92,7 +104,7 @@ h1 {
 }
 
 #youtube {
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
     border-radius: 3px;
     border: none;
     font-size: medium;
@@ -104,7 +116,7 @@ h1 {
 }
 
 #twitter {
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
     border-radius: 3px;
     border: none;
     font-size: medium;
@@ -115,7 +127,7 @@ h1 {
     color:white
 }
 
-#tiktok {    padding: 5px 5px 5px 5px;
+#tiktok {    padding: 10px 10px 10px 10px;
     border-radius: 3px;
     border: none;
     font-size: medium;
