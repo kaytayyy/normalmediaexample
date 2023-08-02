@@ -89,18 +89,23 @@ h1 {
 }
 
 #enjoywork {
-    transform: translate(100px, -600px);
+    transform: translate(950px, -600px);
 }
 
 #box {
     color: white;
-    width: 150px;
-    height: 150px;
-    border-radius: 30%;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    transform: translate(100px, -700px);
 }
 
 #second {
+    transform: translate(790px, -720px);
+}
 
+#social {
+    transform: translate(950px, -725px);
 }
 
 #youtube {
