@@ -6,6 +6,8 @@ h3 {
     color: white; font-family: monospace; font:courier;
     word-wrap: break-word;
     font-size: larger;
+    margin: auto;
+    padding: 0px;
 }
 
 #logo {
@@ -86,59 +88,70 @@ h1 {
     border-radius: 15px;
     font-weight: bolder;
     transform: translate(20px, -700px);
+    border: solid transparent;
 }
 
 #enjoywork {
-    transform: translate(950px, -600px);
+    transform: translate(950px, -550px);
 }
 
 #box {
     color: white;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 10%;
-    transform: translate(100px, -700px);
+    transform: translate(150px, -600px);
+    border: 10px white solid;
 }
 
 #second {
-    transform: translate(790px, -720px);
+    transform: translate(790px, -940px);
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: 0px;
+    margin-right: 0px;
 }
 
 #social {
-    transform: translate(950px, -725px);
+    transform: translate(950px, -900px);
 }
 
 #youtube {
-    padding: 10px 10px 10px 10px;
+    padding: 10px 20px;
     border-radius: 3px;
     border: none;
     font-size: medium;
     display: grid;
     /* place-items: center; */
-    transform: translate(2550%, -125%);
+    transform: translate(0px, -7px);
     background-color:red;
     color:white
 }
 
 #twitter {
-    padding: 10px 10px 10px 10px;
+    padding: 10px 25px;
     border-radius: 3px;
-    border: none;
+    border: 1px solid white;
     font-size: medium;
     display: grid;
     /* place-items: center; */
-    transform: translate(2550%, -125%);
-    background-color: blue; 
+    transform: translate(75px, -45px);
+    background-color: black; 
     color:white
 }
 
-#tiktok {    padding: 10px 10px 10px 10px;
+#tiktok {    
+    padding: 10px 20px;
     border-radius: 3px;
     border: none;
     font-size: medium;
     display: grid;
     /* place-items: center; */
-    transform: translate(2550%, -125%);
+    transform: translate(150px, -85px);
     background-color:blueviolet;
     color:white
+}
+
+#socialbtns {
+    transform: translate(900px, -900px)
 }
