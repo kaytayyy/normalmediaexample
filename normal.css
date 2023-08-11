@@ -155,3 +155,49 @@ h1 {
 #socialbtns {
     transform: translate(900px, -900px)
 }
+
+#offer {
+    transform: translate(630px, -750px);
+}
+
+#editing {
+    max-width: 400px;
+    max-height: auto;
+    transform: translate(200px, -650px);
+}
+
+#shooting {
+    max-width: 390px;
+    max-height: auto;
+    transform: translate(800px, -1050px);
+}
+
+#brand {
+    transform: translate(300px, -650px);
+}
+
+#third {
+    transform: translate(175px, -650px);
+}
+
+#video {
+    transform: translate(950px, -1050px);
+}
+
+#fourth {
+    transform: translate(780px, -1055px);
+}
+
+#about {
+    transform: translate(300px, -790px);
+}
+
+#fifth {
+    transform: translate(175px, -750px);
+}
+
+#filming {
+    max-width: 500px;
+    max-height: auto;
+    transform: translate(700px, -1000px);
+}
