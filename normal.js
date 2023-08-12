@@ -12,7 +12,7 @@ const fetchShibas = () =>
 
 fetchShibas()
 
-//append child shiba to "enjoy our work" and mouse over to reveal a new shiba in the div box
+//append child shiba to "enjoy our work" and mouse over to reveal a new shiba in the div box..
 const enjoyWork = document.getElementById('enjoywork')
 const shibaImage = document.createElement('img')
 enjoyWork.appendChild(shibaImage)

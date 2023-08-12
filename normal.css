@@ -164,12 +164,14 @@ h1 {
     max-width: 400px;
     max-height: auto;
     transform: translate(200px, -650px);
+    border-radius: 10%;
 }
 
 #shooting {
     max-width: 390px;
     max-height: auto;
     transform: translate(800px, -1050px);
+    border-radius: 10%;
 }
 
 #brand {
@@ -197,7 +199,26 @@ h1 {
 }
 
 #filming {
-    max-width: 500px;
+    max-width: 700px;
     max-height: auto;
     transform: translate(700px, -1000px);
+
+}
+
+#connect {
+    transform: translate(300px, -800px);
+}
+
+#sixth {
+    transform: translate(175px, -750px);
+}
+
+#shadow-image {
+    max-width: 300px;
+    transform: translate(250px, -700px);
+    border-radius: 10%;
+}
+
+#email-input {
+    transform: translate(700px, -950px);
 }
