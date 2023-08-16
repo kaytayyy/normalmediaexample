@@ -95,15 +95,6 @@ h1 {
     transform: translate(950px, -550px);
 }
 
-#box {
-    color: white;
-    width: 400px;
-    height: 400px;
-    border-radius: 10%;
-    transform: translate(150px, -600px);
-    border: 10px white solid;
-}
-
 #second {
     transform: translate(790px, -940px);
     max-width: fit-content;
@@ -150,6 +141,11 @@ h1 {
     transform: translate(150px, -85px);
     background-color:blueviolet;
     color:white
+}
+
+#dog {
+    max-width: 3000px;
+    transform: translate(-300px, 500px);
 }
 
 #socialbtns {
