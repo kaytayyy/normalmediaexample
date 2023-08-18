@@ -1,4 +1,6 @@
-body{background-color: black}
+body{background-color: black;
+    width: 500px
+}
 
 h2{color:white; font-family: monospace; font:courier}
 
@@ -93,6 +95,7 @@ h1 {
 
 #enjoywork {
     transform: translate(950px, -550px);
+    position: absolute;
 }
 
 #second {
@@ -101,10 +104,12 @@ h1 {
     max-height: fit-content;
     margin: 0px;
     margin-right: 0px;
+    position: absolute;
 }
 
 #social {
     transform: translate(950px, -900px);
+    position: absolute;
 }
 
 #youtube {
@@ -144,12 +149,22 @@ h1 {
 }
 
 #dog {
-    max-width: 3000px;
-    transform: translate(-300px, 500px);
+    max-width: 400px;
+    max-height: 500px;
+    transform: translate(200px, -550px);
+}
+
+#enjoyDiv {
+    background-color: white;
+    max-height: 400px;
+    max-width: 400px;
+    transform: translate(100px, -400px);
+    border: 5px solid white;
 }
 
 #socialbtns {
-    transform: translate(900px, -900px)
+    transform: translate(900px, -900px);
+    position: absolute;
 }
 
 #offer {
@@ -217,4 +232,8 @@ h1 {
 
 #email-input {
     transform: translate(700px, -950px);
+}
+
+#greet{
+    color: white;
 }
