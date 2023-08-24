@@ -3,6 +3,7 @@ const apiUrl = 'https://dog.ceo/api/breeds/image/random'
 
 document.addEventListener('DOMContentLoaded', function(){
 
+// making the image appear when mouse-ing over the div element
 function get_random_dog_image() {
 
     fetch(apiUrl)
@@ -25,6 +26,8 @@ tryBtn.addEventListener('mouseover', () => {
 get_random_dog_image()
 })
 
+
+// making the event listener and alert for the 'Learn More' button
 const learnButton = document.getElementById('learnbtn')
 learnButton.addEventListener('click', () => {
     window.alert("Normal Media is a company built by August Woodman and Danny Megard in 2023.")
@@ -33,7 +36,7 @@ learnButton.addEventListener('click', () => {
 
 
 
-
+// the array for the different kinds of welcome messages
 const welcomeArray = [
     `Welcome to Normal Media ${name}. `,
     `Hi there ${name}, this is Normal Media.`,
@@ -41,6 +44,7 @@ const welcomeArray = [
     `Katie Smith made this website, tell her it's beautiful, ${name}`
 ]
 
+// randomizing the array and how they are returned
 function generateRandomWordArray(length, welcomeArray) {
     const randomArray = [];
     
@@ -57,22 +61,47 @@ function generateRandomWordArray(length, welcomeArray) {
 const randomWordArray = generateRandomWordArray(length, welcomeArray);
 console.log(randomWordArray);
 
-function submitWelcome(event) {
-    greet.textContent = welcomeArray;
-    const form = document.getElementById('form');
-    const greet = document.getElementById('greet');
-    form.addEventListener('submit', submitWelcome, generateRandomWordArray); {
-        event.preventDefault(); //used for submit button
-    }
-}
-
-form.appendChild(greet);
-
+// function submitWelcome(event) {
+//     greet.textContent = welcomeArray;
+//     const form = document.getElementById('emailForm');
+//     const greet = document.getElementById('greet');
+//     form.addEventListener('submit', submitWelcome, generateRandomWordArray); {
+//         event.preventDefault(); //used for submit button
+//         greet.appendChild(form);
+//     }
+// }
 
 
 
+
+// submitWelcome
+
+// getting the form itself to actually work
+document.getElementById('emailForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const newH = document.createElement('h3')
+    const sentence = document.createTextNode(randomWordArray);
+
+    newH.appendChild(sentence);
+
+    const currentDiv = document.getElementById('greet');
+    document.body.afterEnd(newH, currentDiv); //issues here, needs something else to make it work
 
 })
+})
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // logoDisplay.src = 'photos/Banner Export.png'
