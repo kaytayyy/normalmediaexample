@@ -38,10 +38,10 @@ learnButton.addEventListener('click', () => {
 
 // the array for the different kinds of welcome messages
 const welcomeArray = [
-    `Welcome to Normal Media ${name}.`,
-    `Hi there ${name}, this is Normal Media.`,
-    `Howdy ${name} are you interested in hiring a media company?`,
-    `Katie Smith made this website, tell her it's beautiful, ${name}.`
+    `Welcome to Normal Media.`,
+    `Hi there, this is Normal Media.`,
+    `Howdy, are you interested in hiring a media company?`,
+    `Katie Smith made this website, tell her it's beautiful.`
 ]
 
 // randomizing the array and how they are returned
