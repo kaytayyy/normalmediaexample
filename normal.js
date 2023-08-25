@@ -38,10 +38,10 @@ learnButton.addEventListener('click', () => {
 
 // the array for the different kinds of welcome messages
 const welcomeArray = [
-    `Welcome to Normal Media ${name}. `,
+    `Welcome to Normal Media ${name}.`,
     `Hi there ${name}, this is Normal Media.`,
     `Howdy ${name} are you interested in hiring a media company?`,
-    `Katie Smith made this website, tell her it's beautiful, ${name}`
+    `Katie Smith made this website, tell her it's beautiful, ${name}.`
 ]
 
 // randomizing the array and how they are returned
@@ -61,6 +61,51 @@ function generateRandomWordArray(length, welcomeArray) {
 const randomWordArray = generateRandomWordArray(length, welcomeArray);
 console.log(randomWordArray);
 
+
+
+// getting the form itself to actually work
+
+const nameInput = document.getElementById("nameInput");
+const submitButton = document.getElementById("send");
+const outputElement = document.getElementById("greet");
+
+// Attach an event listener to the button
+submitButton.addEventListener("click", function(event) {
+    event.preventDefault();
+    // Get the value from the input box
+    const name = nameInput.value;
+
+    // Randomly select a welcome message from the array
+    const randomIndex = Math.floor(Math.random() * randomWordArray.length);
+    const randomWelcomeMessage = randomWordArray[randomIndex];
+    
+    const formattedMessage = randomWelcomeMessage.replace("${name}", name)
+
+    // Display the message in the output element
+    outputElement.textContent = formattedMessage;
+    });
+    
+})
+
+
+
+
+
+
+// document.getElementById('emailForm').addEventListener('submit', function(e) {
+//     e.preventDefault();
+
+//     const newH = document.createElement('h3')
+//     const sentence = document.createTextNode(randomWordArray);
+//     const input = document.getElementById('nameInput');
+    
+//     newH.appendChild(sentence);
+    
+//     const currentDiv = document.getElementById('greet');
+//     document.body.appendChild(newH, currentDiv); //issues here, needs something else to make it work
+    
+
+
 // function submitWelcome(event) {
 //     greet.textContent = welcomeArray;
 //     const form = document.getElementById('emailForm');
@@ -75,29 +120,6 @@ console.log(randomWordArray);
 
 
 // submitWelcome
-
-// getting the form itself to actually work
-document.getElementById('emailForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-
-    const newH = document.createElement('h3')
-    const sentence = document.createTextNode(randomWordArray);
-
-    newH.appendChild(sentence);
-
-    const currentDiv = document.getElementById('greet');
-    document.body.afterEnd(newH, currentDiv); //issues here, needs something else to make it work
-
-})
-})
-
-
-
-
-
-
-
-
 
 
 
