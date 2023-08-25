@@ -86,11 +86,15 @@ submitButton.addEventListener("click", function(event) {
     });
     
 })
+// you may notice all of the things saying "name" and that is because I wanted the users name to be input into the array,
+// however, that was a much more complicated task than I had expected. I will make it work, but just not at this exact moment.
 
 
 
 
 
+
+// *ALL OF THIS IS DISCARDED CODE*
 
 // document.getElementById('emailForm').addEventListener('submit', function(e) {
 //     e.preventDefault();
